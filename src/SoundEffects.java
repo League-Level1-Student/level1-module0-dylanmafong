@@ -9,9 +9,6 @@ public class SoundEffects {
 		se.playSound("sawing-wood-daniel_simon.wav");
 	}
 	
-	
-	
-	
 	private void playSound(String fileName) {
 	     AudioClip sound = JApplet.newAudioClip(getClass().getResource(fileName)); 
 	     sound.play();
